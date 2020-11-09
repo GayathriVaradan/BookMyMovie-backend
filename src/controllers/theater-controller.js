@@ -29,12 +29,13 @@ router.get("/:theaterId", async (req, res) => {
 
 // post theater info
 router.post("/", async (req, res) => {
-  const { name, numberOfSeats } = req.body;
+  const { name, numberOfSeatsAvailable, seats } = req.body;
   try {
-    if (name && numberOfSeats) {
+    if (theaterName && numberOfSeatsAvailable) {
       const theater = new Theater({
-        name,
-        numberOfSeats,
+        theaterName,
+        numberOfSeatsAvailable,
+        seats,
       });
       await theater.save();
       return res.json(theater);

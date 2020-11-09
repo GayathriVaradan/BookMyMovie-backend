@@ -1,0 +1,77 @@
+[
+    {
+        "theaterNames": "Filmstaden Kista",
+        "dates": [
+            {
+                "date": "today(06-11-2020)",
+                "movieName": "Black Panther",
+                "shows": [
+                    {
+                        "show": "Morning show (10:00)"
+                    },
+                    {
+                        "show": ":Noon Show (2:00)"
+                    },
+                    {
+                        "show": ":Evening Show (6:00)"
+                    }
+                ],
+                "seatsUnavailable": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        ]
+    },
+    {
+        "theaterNames": "Filmstaden Scandinavia",
+        "dates": [
+            {
+                "date": "today(06-11-2020)",
+                "movieName": "Black Panther",
+                "shows": [
+                    {
+                        "show": "Morning show (10:00)"
+                    },
+                    {
+                        "show": ":Noon Show (2:00)"
+                    },
+                    {
+                        "show": ":Evening Show (6:00)"
+                    }
+                ],
+                "seatsUnavailable": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        ]
+    },
+    {
+        "theaterNames": "Filmstaden Heron City",
+        "dates": [
+            {
+                "date": "today(06-11-2020)",
+                "movieName": "Black Panther",
+                "shows": [
+                    {
+                        "show": "Morning show (10:00)"
+                    },
+                    {
+                        "show": ":Noon Show (2:00)"
+                    },
+                    {
+                        "show": ":Evening Show (6:00)"
+                    }
+                ],
+                "seatsUnavailable": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        ]
+    }
+]

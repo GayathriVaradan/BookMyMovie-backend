@@ -35,6 +35,7 @@ router.get("/:movieId", async (req, res) => {
 router.post("/", async (req, res) => {
   console.log("req.body.name", req.body);
   const {
+    theaterNames,
     title,
     year,
     genre,
@@ -49,6 +50,7 @@ router.post("/", async (req, res) => {
   } = req.body;
   try {
     if (
+      theaterNames &&
       title &&
       year &&
       genre &&
@@ -62,6 +64,7 @@ router.post("/", async (req, res) => {
       posterUrl
     ) {
       const movie = new Movie({
+        theaterNames,
         title,
         year,
         genre,
