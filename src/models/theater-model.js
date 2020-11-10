@@ -1,13 +1,16 @@
 const mongoose = require("mongoose");
 
 const theaterSchema = new mongoose.Schema({
-  theaterName: { type: String, required: true },
-  dates: [
+  date: { type: String, required: true },
+  title: { type: String, required: true },
+  theater: [
+    { theaterName: { type: String, required: true } },
     {
-      date: { type: String, required: true },
-      movieName: { type: String, required: true },
-      shows: [{ show: { type: String, required: true } }],
-      seatsUnavailable: [],
+      shows: [
+        { show: { type: String, required: true } },
+        { time: { type: String, required: true } },
+        { seatsUnavailable: [{ type: Number }] },
+      ],
     },
   ],
 });

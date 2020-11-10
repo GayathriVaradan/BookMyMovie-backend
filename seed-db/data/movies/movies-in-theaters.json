@@ -5,25 +5,27 @@
             "Filmstaden Heron City",
             "Filmstaden Scandinavia"
         ],
-        "title": "Black Panther",
-        "year": "2018",
+        "title": "F.R.I.E.N.D.S",
+        "year": "2020",
         "genres": [
-            "Action",
-            "Adventure",
-            "Sci-Fi"
+            "Comedy",
+            "Romance"
         ],
-        "poster": "MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_SY500_CR0,0,337,500_AL_.jpg",
+        "poster": "https://m.media-amazon.com/images/I/612Sdyl5WiL._AC_UL480_FMwebp_QL65_.jpg",
         "contentRating": "15",
         "duration": "PT134M",
-        "releaseDate": "2018-02-14",
-        "storyline": "After the events of Captain America: Civil War, King T'Challa returns home to the reclusive, technologically advanced African nation of Wakanda to serve as his country's new leader. However, T'Challa soon finds that he is challenged for the throne from factions within his own country. When two foes conspire to destroy Wakanda, the hero known as Black Panther must team up with C.I.A. agent Everett K. Ross and members of the Dora Milaje, Wakandan special forces, to prevent Wakanda from being dragged into a world war.                Written by\nEditor",
+        "releaseDate": "1994-02-14",
+        "storyline": "Follow the lives of six reckless adults living in Manhattan, as they indulge in adventures which make their lives both troublesome and happening.",
         "actors": [
-            "Chadwick Boseman",
-            "Michael B. Jordan",
-            "Lupita Nyong'o"
+            "Jennifer Aniston",
+            "Courteney Cox",
+            "Lisa Kudrow",
+            "Matt LeBlanc",
+            "Matthew Perry",
+            "David Schwimmer"
         ],
-        "imdbRating": 7.0,
-        "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_SY500_CR0,0,337,500_AL_.jpg"
+        "imdbRating": 8.9,
+        "posterurl": "https://m.media-amazon.com/images/I/612Sdyl5WiL._AC_UL480_FMwebp_QL65_.jpg"
     },
     {
         "theaterNames": [
@@ -37,7 +39,7 @@
             "Drama",
             "Romance"
         ],
-        "poster": "MV5BYWMxYWVjNzAtMTY0YS00YWQyLWExMGItMjUxODkwYzQyNzMwXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_SY500_CR0,0,328,500_AL_.jpg",
+        "poster": "https://catalog.cinema-api.com/cf/images/ncg-images/e69edf773f1e42e1aacfebf3e0c73506.jpg?width=240&version=73E664D30F28C1D97DE1998F0F912366&format=webp",
         "contentRating": "PG",
         "duration": "3 hrs 9 min",
         "releaseDate": "30 Oct 2020",
@@ -48,6 +50,6 @@
             "Amrish Puri "
         ],
         "imdbRating": 8.1,
-        "posterurl": "https://catalog.cinema-api.com/cf/images/ncg-images/e69edf773f1e42e1aacfebf3e0c73506.jpg?width=240&version=73E664D30F28C1D97DE1998F0F912366&format=webp"
+        "posterurl": "https://catalog.cinema-api.com/cf/images/ncg-images/e69edf773f1e42e1aacfebf3e0c73506.jpg"
     }
 ]

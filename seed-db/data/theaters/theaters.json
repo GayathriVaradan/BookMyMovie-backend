@@ -1,75 +1,336 @@
 [
     {
-        "theaterNames": "Filmstaden Kista",
-        "dates": [
+        "date": "06-11-2020",
+        "title": "F.R.I.E.N.D.S",
+        "theater": [
             {
-                "date": "today(06-11-2020)",
-                "movieName": "Black Panther",
+                "theaterName": "Filmstaden Kista",
                 "shows": [
                     {
-                        "show": "Morning show (10:00)"
+                        "show": "Morning show",
+                        "time": "10:00",
+                        "seatsUnavailable": [
+                            1,
+                            2,
+                            3
+                        ]
                     },
                     {
-                        "show": ":Noon Show (2:00)"
+                        "show": "Noon Show",
+                        "time": "14:00",
+                        "seatsUnavailable": [
+                            4,
+                            5,
+                            6
+                        ]
                     },
                     {
-                        "show": ":Evening Show (6:00)"
+                        "show": "Evening Show",
+                        "time": "18:00",
+                        "seatsUnavailable": [
+                            7,
+                            8,
+                            9
+                        ]
                     }
-                ],
-                "seatsUnavailable": [
-                    1,
-                    2,
-                    3
+                ]
+            },
+            {
+                "theaterName": "Filmstaden Scandinavia",
+                "shows": [
+                    {
+                        "show": "Noon Show",
+                        "time": "14:00",
+                        "seatsUnavailable": [
+                            4,
+                            5,
+                            6
+                        ]
+                    },
+                    {
+                        "show": "Evening Show",
+                        "time": "18:00",
+                        "seatsUnavailable": [
+                            7,
+                            8,
+                            9
+                        ]
+                    }
+                ]
+            },
+            {
+                "theaterName": "Filmstaden Heron City",
+                "shows": [
+                    {
+                        "show": "Morning show",
+                        "time": "10:00",
+                        "seatsUnavailable": [
+                            1,
+                            2,
+                            3
+                        ]
+                    },
+                    {
+                        "show": "Noon Show",
+                        "time": "14:00",
+                        "seatsUnavailable": [
+                            4,
+                            5,
+                            6
+                        ]
+                    },
+                    {
+                        "show": "Evening Show",
+                        "time": "18:00",
+                        "seatsUnavailable": [
+                            7,
+                            8,
+                            9
+                        ]
+                    }
                 ]
             }
         ]
     },
     {
-        "theaterNames": "Filmstaden Scandinavia",
-        "dates": [
+        "date": "07-11-2020",
+        "title": "F.R.I.E.N.D.S",
+        "theater": [
             {
-                "date": "today(06-11-2020)",
-                "movieName": "Black Panther",
+                "theaterName": "Filmstaden Kista",
                 "shows": [
                     {
-                        "show": "Morning show (10:00)"
+                        "show": "Morning show",
+                        "time": "10:00",
+                        "seatsUnavailable": [
+                            1,
+                            2,
+                            3
+                        ]
                     },
                     {
-                        "show": ":Noon Show (2:00)"
-                    },
-                    {
-                        "show": ":Evening Show (6:00)"
+                        "show": "Noon Show",
+                        "time": "14:00",
+                        "seatsUnavailable": [
+                            4,
+                            5,
+                            6
+                        ]
                     }
-                ],
-                "seatsUnavailable": [
-                    1,
-                    2,
-                    3
+                ]
+            },
+            {
+                "theaterName": "Filmstaden Scandinavia",
+                "shows": [
+                    {
+                        "show": "Morning show",
+                        "time": "10:00",
+                        "seatsUnavailable": [
+                            1,
+                            2,
+                            3
+                        ]
+                    },
+                    {
+                        "show": "Noon Show",
+                        "time": "14:00",
+                        "seatsUnavailable": [
+                            4,
+                            5,
+                            6
+                        ]
+                    },
+                    {
+                        "show": "Evening Show",
+                        "time": "18:00",
+                        "seatsUnavailable": [
+                            7,
+                            8,
+                            9
+                        ]
+                    }
+                ]
+            },
+            {
+                "theaterName": "Filmstaden Heron City",
+                "shows": [
+                    {
+                        "show": "Noon Show",
+                        "time": "14:00",
+                        "seatsUnavailable": [
+                            4,
+                            5,
+                            6
+                        ]
+                    },
+                    {
+                        "show": "Evening Show",
+                        "time": "18:00",
+                        "seatsUnavailable": [
+                            7,
+                            8,
+                            9
+                        ]
+                    }
                 ]
             }
         ]
     },
     {
-        "theaterNames": "Filmstaden Heron City",
-        "dates": [
+        "date": "06-11-2020",
+        "title": "Dilwale Dulhania Le Jayenge - Classic",
+        "theater": [
             {
-                "date": "today(06-11-2020)",
-                "movieName": "Black Panther",
+                "theaterName": "Filmstaden Kista",
                 "shows": [
                     {
-                        "show": "Morning show (10:00)"
+                        "show": "Noon Show",
+                        "time": "14:00",
+                        "seatsUnavailable": [
+                            4,
+                            5,
+                            6
+                        ]
                     },
                     {
-                        "show": ":Noon Show (2:00)"
-                    },
-                    {
-                        "show": ":Evening Show (6:00)"
+                        "show": "Evening Show",
+                        "time": "18:00",
+                        "seatsUnavailable": [
+                            7,
+                            8,
+                            9
+                        ]
                     }
-                ],
-                "seatsUnavailable": [
-                    1,
-                    2,
-                    3
+                ]
+            },
+            {
+                "theaterName": "Filmstaden Scandinavia",
+                "shows": [
+                    {
+                        "show": "Morning show",
+                        "time": "10:00",
+                        "seatsUnavailable": [
+                            1,
+                            2,
+                            3
+                        ]
+                    },
+                    {
+                        "show": "Evening Show",
+                        "time": "18:00",
+                        "seatsUnavailable": [
+                            7,
+                            8,
+                            9
+                        ]
+                    }
+                ]
+            },
+            {
+                "theaterName": "Filmstaden Heron City",
+                "shows": [
+                    {
+                        "show": "Morning show",
+                        "time": "10:00",
+                        "seatsUnavailable": [
+                            1,
+                            2,
+                            3
+                        ]
+                    },
+                    {
+                        "show": "Noon Show",
+                        "time": "14:00",
+                        "seatsUnavailable": [
+                            4,
+                            5,
+                            6
+                        ]
+                    },
+                    {
+                        "show": "Evening Show",
+                        "time": "18:00",
+                        "seatsUnavailable": [
+                            7,
+                            8,
+                            9
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "07-11-2020",
+        "title": "Dilwale Dulhania Le Jayenge - Classic",
+        "theater": [
+            {
+                "theaterName": "Filmstaden Kista",
+                "shows": [
+                    {
+                        "show": "Morning show",
+                        "time": "10:00",
+                        "seatsUnavailable": [
+                            1,
+                            2,
+                            3
+                        ]
+                    },
+                    {
+                        "show": "Evening Show",
+                        "time": "18:00",
+                        "seatsUnavailable": [
+                            7,
+                            8,
+                            9
+                        ]
+                    }
+                ]
+            },
+            {
+                "theaterName": "Filmstaden Scandinavia",
+                "shows": [
+                    {
+                        "show": "Morning show",
+                        "time": "10:00",
+                        "seatsUnavailable": [
+                            1,
+                            2,
+                            3
+                        ]
+                    },
+                    {
+                        "show": "Noon Show",
+                        "time": "14:00",
+                        "seatsUnavailable": [
+                            4,
+                            5,
+                            6
+                        ]
+                    }
+                ]
+            },
+            {
+                "theaterName": "Filmstaden Heron City",
+                "shows": [
+                    {
+                        "show": "Noon Show",
+                        "time": "14:00",
+                        "seatsUnavailable": [
+                            4,
+                            5,
+                            6
+                        ]
+                    },
+                    {
+                        "show": "Evening Show",
+                        "time": "18:00",
+                        "seatsUnavailable": [
+                            7,
+                            8,
+                            9
+                        ]
+                    }
                 ]
             }
         ]

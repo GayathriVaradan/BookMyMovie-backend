@@ -23,30 +23,9 @@ router.get("/", async (req, res) => {
 });
 
 // get theater by id
-router.get("/:theaterId", async (req, res) => {
-  res.send(req.theater);
+router.get("/:title", async (req, res) => {
+  const theaterByMovie = await Theater.find({ title: req.params.title });
+  return res.json(theaterByMovie);
 });
 
-// post theater info
-router.post("/", async (req, res) => {
-  const { name, numberOfSeatsAvailable, seats } = req.body;
-  try {
-    if (theaterName && numberOfSeatsAvailable) {
-      const theater = new Theater({
-        theaterName,
-        numberOfSeatsAvailable,
-        seats,
-      });
-      await theater.save();
-      return res.json(theater);
-    }
-    return res
-      .status(400)
-      .json({ message: "please include all theater details" });
-  } catch (err) {
-    return res.status(500).send({
-      message: "Could not add the theater.",
-    });
-  }
-});
 module.exports = router;
