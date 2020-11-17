@@ -27,5 +27,18 @@ router.get("/:title", async (req, res) => {
   const theaterByMovie = await Theater.find({ title: req.params.title });
   return res.json(theaterByMovie);
 });
+//TODO for seats Unavailable
+router.patch("/:userId", async (req, res) => {
+  try {
+    if (req.body.products) {
+      return res.status(400).json({ message: "Do not include products" });
+    }
+    const user = { _id: req.userId, ...req.body };
+    await User.updateOne({ _id: req.userId }, { $set: req.body });
+    return res.send(user);
+  } catch (err) {
+    return res.status(500).send(err);
+  }
+});
 
 module.exports = router;

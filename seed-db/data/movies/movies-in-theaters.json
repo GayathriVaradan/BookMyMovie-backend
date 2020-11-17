@@ -51,5 +51,163 @@
         ],
         "imdbRating": 8.1,
         "posterurl": "https://catalog.cinema-api.com/cf/images/ncg-images/e69edf773f1e42e1aacfebf3e0c73506.jpg"
+    },
+    {
+        "theaterNames": [
+            "Filmstaden Scandinavia"
+        ],
+        "title": "Wonder Woman 1984",
+        "year": "2020",
+        "genres": [
+            "Adventure",
+            "Fantacy"
+        ],
+        "poster": "https://catalog.cinema-api.com/cf/images/ncg-images/3b47ecd3a881423e8975376c3ba5ff22.jpg?width=240&version=1493600433280112FE2DDD09C1F6D72F&format=webp",
+        "contentRating": "PG",
+        "duration": "2h 31m",
+        "releaseDate": "25 Dec 2020",
+        "storyline": "We fast-forward to the 1980s when Wonder Woman is faced with two completely new enemies: Max Lord and The Cheetah.",
+        "actors": [
+            "Gal Gadot",
+            "Chris Pine",
+            "Connie Nielsen",
+            "Kristen Wiig",
+            "Robin Wright"
+        ],
+        "imdbRating": 8.1,
+        "posterurl": "https://catalog.cinema-api.com/cf/images/ncg-images/3b47ecd3a881423e8975376c3ba5ff22.jpg?"
+    },
+    {
+        "theaterNames": [
+            "Filmstaden Scandinavia"
+        ],
+        "title": "The King's Man",
+        "year": "1995",
+        "genres": [
+            "Adventure",
+            "Action",
+            "Comedy"
+        ],
+        "poster": "https://catalog.cinema-api.com/cf/images/ncg-images/c421eaabb124478f808978684c050fec.jpg?width=240&version=73E9BEDDBAFB481CFE26249B4F4C972C&format=webp",
+        "contentRating": "PG",
+        "duration": "2h 31m",
+        "releaseDate": "12 Feb 2021",
+        "storyline": "When some of history's worst tyrants are planning a war to wipe out millions of people, a man has to fight against the clock to stop them. See how the very first intelligence agency was formed in 'The King's Man'.",
+        "actors": [
+            "Matthew Goode",
+            "Gemma Arterton",
+            "Aaron Taylor-Johnson"
+        ],
+        "imdbRating": 8.1,
+        "posterurl": "https://catalog.cinema-api.com/cf/images/ncg-images/c421eaabb124478f808978684c050fec.jpg"
+    },
+    {
+        "theaterNames": [
+            "Filmstaden Scandinavia"
+        ],
+        "title": "Black Widow",
+        "year": "2020",
+        "genres": [
+            "Adventure",
+            "Action",
+            "Sci-Fi"
+        ],
+        "poster": "https://catalog.cinema-api.com/cf/images/ncg-images/afa041d4784944efa5571d46adc8a98a.jpg?width=240&version=963227AB41EEA8F68EF82EDA7CA0E4CA&format=webp",
+        "contentRating": "PG",
+        "duration": "2h 31m",
+        "releaseDate": "7 May 2021",
+        "storyline": "Natasha Romanoff, better known as the Black Widow, is Avenger's most dangerous spy ever. But now her past finally catches up with her. We see Scarlett Johansson again as Black Widow. Other roles include Florence Pugh, David Harbor, Rachel Weisz and OT Fagbenle. © Marvel",
+        "actors": [
+            "Scarlett Johansson",
+            "Florence Pugh",
+            "Robert Downey Jr.",
+            "Rachel Weisz",
+            "David Harbor",
+            "William Hurt ",
+            "Ray WinstoneMatthew Goode"
+        ],
+        "imdbRating": 8.1,
+        "posterurl": "https://catalog.cinema-api.com/cf/images/ncg-images/afa041d4784944efa5571d46adc8a98a.jpg"
+    },
+    {
+        "theaterNames": [
+            "Filmstaden Scandinavia"
+        ],
+        "title": "Minions: The story of Gru",
+        "year": "2020",
+        "genres": [
+            "Adventure",
+            "Action",
+            "Comedy"
+        ],
+        "poster": "https://catalog.cinema-api.com/cf/images/ncg-images/aacc4f00cae648afb7e9d2cd903f30ea.jpg?width=240&version=D26BBC083F020298691E4F8FFC862842&format=webp",
+        "contentRating": "PG",
+        "duration": "2h 31m",
+        "releaseDate": "2 Jul 2021",
+        "storyline": "In the mid-1970s, Gru grows up in a suburb, in the middle of a plethora of feathers in her hair and flared jeans. Gru is a big fan of a group of supervillains known as the Grymlings. He devises a plan that will ensure that he becomes evil enough to be part of the group. Fortunately, he gets some chaotic backup from his loyal followers, the Minions. Kevin, Stuart, Bob and Otto - a new Minion with braces and a desperate need to please - use their talents as they and Gru build their first secret hiding place, experiment with their first weapon and try to succeed in their first mission. When the Grymlings get rid of their leader, the legendary fighter Wild Knuckles, Gru is interviewed to become their newest member.",
+        "actors": [
+            "Steve Carell",
+            "Lucy Lawless",
+            "Michelle Yeoh",
+            "Jean-Claude Van Damme",
+            "Julie Andrews",
+            "Dolph Lundgren",
+            "Taraji P. Henson"
+        ],
+        "imdbRating": 8.1,
+        "posterurl": "https://catalog.cinema-api.com/cf/images/ncg-images/aacc4f00cae648afb7e9d2cd903f30ea.jpg"
+    },
+    {
+        "theaterNames": [
+            "Filmstaden Scandinavia"
+        ],
+        "title": "Free Guy",
+        "year": "2020",
+        "genres": [
+            "Adventure",
+            "Action",
+            "Comedy"
+        ],
+        "poster": "https://catalog.cinema-api.com/cf/images/ncg-images/49587552f15d491ca966a1ab5ea2aa53.jpg?width=240&version=D6D032F6B24F1C86C5AEA375FB264556&format=webp",
+        "contentRating": "PG",
+        "duration": "2h 31m",
+        "releaseDate": "2021",
+        "storyline": "A banker discovers that he is in fact a background character in the video game Free City.        ",
+        "actors": [
+            "Ryan Reynolds",
+            "Taika Waititi",
+            "Jodie Comer",
+            "Channing Tatum"
+        ],
+        "imdbRating": 8.1,
+        "posterurl": "https://catalog.cinema-api.com/cf/images/ncg-images/49587552f15d491ca966a1ab5ea2aa53.jpg"
+    },
+    {
+        "theaterNames": [
+            "Filmstaden Scandinavia"
+        ],
+        "title": "The Batman",
+        "year": "2020",
+        "genres": [
+            "Adventure",
+            "Action",
+            "Comedy"
+        ],
+        "poster": "https://catalog.cinema-api.com/cf/images/ncg-images/74912790260f432f8233638b27d04a8a.jpg?width=240&version=679E6F28256295C06B220DD70C74FBD9&format=webp",
+        "contentRating": "PG",
+        "duration": "2h 31m",
+        "releaseDate": "Autumn 2021",
+        "storyline": "A serial killer tries to lure Gotham's criminals into a game of raging against the injustices where they occur. But in Batman's dark silhouette there is a penetrating gaze that methodically destroys the game for the underworld. In The Batman, we return to the original legend of the playboy millionaire with an alter ego as his avenger. Robert Pattinson, from 'Tenet' and 'Twilight', plays the title role as Bruce Wayne / Batman and Jeffrey Wright ('Hunger Games') plays Commissioner Gordon, Batman's unofficial contact with the police. In other roles we see an impressive crowd of actors such as Zoë Kravitz, Colin Farrell, Paul Dano, Peter Sarsgaard, John Torturro and as the family Wayne's faithful servant Alfred we see Andy 'Gollum' Serkis.",
+        "actors": [
+            "Robert Pattinson",
+            "Zoë Kravitz ",
+            "Colin Farrell",
+            "Paul Dano",
+            "Andy Serkis",
+            "Peter Sarsgaard ",
+            "John Turturro ,Jeffrey Wright"
+        ],
+        "imdbRating": 8.1,
+        "posterurl": "https://catalog.cinema-api.com/cf/images/ncg-images/74912790260f432f8233638b27d04a8a.jpg"
     }
 ]
