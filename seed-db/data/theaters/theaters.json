@@ -4,89 +4,15 @@
         "title": "Minions: The story of Gru",
         "theater": [
             {
-                "theaterName": "Filmstaden Kista",
-                "shows": [
-                    {
-                        "show": "Morning show",
-                        "time": "10:00",
-                        "seatsUnavailable": [
-                            1,
-                            2,
-                            3
-                        ]
-                    },
-                    {
-                        "show": "Noon Show",
-                        "time": "14:00",
-                        "seatsUnavailable": [
-                            4,
-                            5,
-                            6
-                        ]
-                    },
-                    {
-                        "show": "Evening Show",
-                        "time": "18:00",
-                        "seatsUnavailable": [
-                            7,
-                            8,
-                            9
-                        ]
-                    }
-                ]
-            },
-            {
                 "theaterName": "Filmstaden Scandinavia",
                 "shows": [
                     {
                         "show": "Noon Show",
-                        "time": "14:00",
-                        "seatsUnavailable": [
-                            4,
-                            5,
-                            6
-                        ]
+                        "time": "14:00"
                     },
                     {
                         "show": "Evening Show",
-                        "time": "18:00",
-                        "seatsUnavailable": [
-                            7,
-                            8,
-                            9
-                        ]
-                    }
-                ]
-            },
-            {
-                "theaterName": "Filmstaden Heron City",
-                "shows": [
-                    {
-                        "show": "Morning show",
-                        "time": "10:00",
-                        "seatsUnavailable": [
-                            1,
-                            2,
-                            3
-                        ]
-                    },
-                    {
-                        "show": "Noon Show",
-                        "time": "14:00",
-                        "seatsUnavailable": [
-                            4,
-                            5,
-                            6
-                        ]
-                    },
-                    {
-                        "show": "Evening Show",
-                        "time": "18:00",
-                        "seatsUnavailable": [
-                            7,
-                            8,
-                            9
-                        ]
+                        "time": "18:00"
                     }
                 ]
             }
@@ -94,28 +20,18 @@
     },
     {
         "date": "Tuesday",
-        "title": "F.R.I.E.N.D.S",
+        "title": "Fast & Furious 9",
         "theater": [
             {
                 "theaterName": "Filmstaden Kista",
                 "shows": [
                     {
                         "show": "Morning show",
-                        "time": "10:00",
-                        "seatsUnavailable": [
-                            1,
-                            2,
-                            3
-                        ]
+                        "time": "10:00"
                     },
                     {
                         "show": "Noon Show",
-                        "time": "14:00",
-                        "seatsUnavailable": [
-                            4,
-                            5,
-                            6
-                        ]
+                        "time": "14:00"
                     }
                 ]
             },
@@ -124,30 +40,15 @@
                 "shows": [
                     {
                         "show": "Morning show",
-                        "time": "10:00",
-                        "seatsUnavailable": [
-                            1,
-                            2,
-                            3
-                        ]
+                        "time": "10:00"
                     },
                     {
                         "show": "Noon Show",
-                        "time": "14:00",
-                        "seatsUnavailable": [
-                            4,
-                            5,
-                            6
-                        ]
+                        "time": "14:00"
                     },
                     {
                         "show": "Evening Show",
-                        "time": "18:00",
-                        "seatsUnavailable": [
-                            7,
-                            8,
-                            9
-                        ]
+                        "time": "18:00"
                     }
                 ]
             },
@@ -156,105 +57,11 @@
                 "shows": [
                     {
                         "show": "Noon Show",
-                        "time": "14:00",
-                        "seatsUnavailable": [
-                            4,
-                            5,
-                            6
-                        ]
+                        "time": "14:00"
                     },
                     {
                         "show": "Evening Show",
-                        "time": "18:00",
-                        "seatsUnavailable": [
-                            7,
-                            8,
-                            9
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "date": "Monday",
-        "title": "Dilwale Dulhania Le Jayenge - Classic",
-        "theater": [
-            {
-                "theaterName": "Filmstaden Kista",
-                "shows": [
-                    {
-                        "show": "Noon Show",
-                        "time": "14:00",
-                        "seatsUnavailable": [
-                            4,
-                            5,
-                            6
-                        ]
-                    },
-                    {
-                        "show": "Evening Show",
-                        "time": "18:00",
-                        "seatsUnavailable": [
-                            7,
-                            8,
-                            9
-                        ]
-                    }
-                ]
-            },
-            {
-                "theaterName": "Filmstaden Scandinavia",
-                "shows": [
-                    {
-                        "show": "Morning show",
-                        "time": "10:00",
-                        "seatsUnavailable": [
-                            1,
-                            2,
-                            3
-                        ]
-                    },
-                    {
-                        "show": "Evening Show",
-                        "time": "18:00",
-                        "seatsUnavailable": [
-                            7,
-                            8,
-                            9
-                        ]
-                    }
-                ]
-            },
-            {
-                "theaterName": "Filmstaden Heron City",
-                "shows": [
-                    {
-                        "show": "Morning show",
-                        "time": "10:00",
-                        "seatsUnavailable": [
-                            1,
-                            2,
-                            3
-                        ]
-                    },
-                    {
-                        "show": "Noon Show",
-                        "time": "14:00",
-                        "seatsUnavailable": [
-                            4,
-                            5,
-                            6
-                        ]
-                    },
-                    {
-                        "show": "Evening Show",
-                        "time": "18:00",
-                        "seatsUnavailable": [
-                            7,
-                            8,
-                            9
-                        ]
+                        "time": "18:00"
                     }
                 ]
             }
@@ -265,71 +72,15 @@
         "title": "Dilwale Dulhania Le Jayenge - Classic",
         "theater": [
             {
-                "theaterName": "Filmstaden Kista",
-                "shows": [
-                    {
-                        "show": "Morning show",
-                        "time": "10:00",
-                        "seatsUnavailable": [
-                            1,
-                            2,
-                            3
-                        ]
-                    },
-                    {
-                        "show": "Evening Show",
-                        "time": "18:00",
-                        "seatsUnavailable": [
-                            7,
-                            8,
-                            9
-                        ]
-                    }
-                ]
-            },
-            {
-                "theaterName": "Filmstaden Scandinavia",
-                "shows": [
-                    {
-                        "show": "Morning show",
-                        "time": "10:00",
-                        "seatsUnavailable": [
-                            1,
-                            2,
-                            3
-                        ]
-                    },
-                    {
-                        "show": "Noon Show",
-                        "time": "14:00",
-                        "seatsUnavailable": [
-                            4,
-                            5,
-                            6
-                        ]
-                    }
-                ]
-            },
-            {
                 "theaterName": "Filmstaden Heron City",
                 "shows": [
                     {
                         "show": "Noon Show",
-                        "time": "14:00",
-                        "seatsUnavailable": [
-                            4,
-                            5,
-                            6
-                        ]
+                        "time": "14:00"
                     },
                     {
                         "show": "Evening Show",
-                        "time": "18:00",
-                        "seatsUnavailable": [
-                            7,
-                            8,
-                            9
-                        ]
+                        "time": "18:00"
                     }
                 ]
             }
@@ -344,21 +95,11 @@
                 "shows": [
                     {
                         "show": "Morning show",
-                        "time": "10:00",
-                        "seatsUnavailable": [
-                            1,
-                            2,
-                            3
-                        ]
+                        "time": "10:00"
                     },
                     {
                         "show": "Noon Show",
-                        "time": "14:00",
-                        "seatsUnavailable": [
-                            4,
-                            5,
-                            6
-                        ]
+                        "time": "14:00"
                     }
                 ]
             }
@@ -373,21 +114,11 @@
                 "shows": [
                     {
                         "show": "Morning show",
-                        "time": "10:00",
-                        "seatsUnavailable": [
-                            1,
-                            2,
-                            3
-                        ]
+                        "time": "10:00"
                     },
                     {
                         "show": "Noon Show",
-                        "time": "14:00",
-                        "seatsUnavailable": [
-                            4,
-                            5,
-                            6
-                        ]
+                        "time": "14:00"
                     }
                 ]
             }
@@ -402,21 +133,11 @@
                 "shows": [
                     {
                         "show": "Morning show",
-                        "time": "10:00",
-                        "seatsUnavailable": [
-                            1,
-                            2,
-                            3
-                        ]
+                        "time": "10:00"
                     },
                     {
                         "show": "Noon Show",
-                        "time": "14:00",
-                        "seatsUnavailable": [
-                            4,
-                            5,
-                            6
-                        ]
+                        "time": "14:00"
                     }
                 ]
             }
@@ -431,21 +152,11 @@
                 "shows": [
                     {
                         "show": "Morning show",
-                        "time": "10:00",
-                        "seatsUnavailable": [
-                            1,
-                            2,
-                            3
-                        ]
+                        "time": "10:00"
                     },
                     {
                         "show": "Noon Show",
-                        "time": "14:00",
-                        "seatsUnavailable": [
-                            4,
-                            5,
-                            6
-                        ]
+                        "time": "14:00"
                     }
                 ]
             }
@@ -460,21 +171,49 @@
                 "shows": [
                     {
                         "show": "Morning show",
-                        "time": "10:00",
-                        "seatsUnavailable": [
-                            1,
-                            2,
-                            3
-                        ]
+                        "time": "10:00"
                     },
                     {
                         "show": "Noon Show",
-                        "time": "14:00",
-                        "seatsUnavailable": [
-                            4,
-                            5,
-                            6
-                        ]
+                        "time": "14:00"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "Sunday",
+        "title": "No Time to Die",
+        "theater": [
+            {
+                "theaterName": "Filmstaden Kista",
+                "shows": [
+                    {
+                        "show": "Morning show",
+                        "time": "10:00"
+                    },
+                    {
+                        "show": "Noon Show",
+                        "time": "14:00"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "Friday",
+        "title": "A Quiet Place: Part II",
+        "theater": [
+            {
+                "theaterName": "Filmstaden Heron City",
+                "shows": [
+                    {
+                        "show": "Morning show",
+                        "time": "10:00"
+                    },
+                    {
+                        "show": "Noon Show",
+                        "time": "14:00"
                     }
                 ]
             }

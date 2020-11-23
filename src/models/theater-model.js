@@ -9,7 +9,6 @@ const theaterSchema = new mongoose.Schema({
       shows: [
         { show: { type: String, required: true } },
         { time: { type: String, required: true } },
-        { seatsUnavailable: [{ type: Number }] },
       ],
     },
   ],

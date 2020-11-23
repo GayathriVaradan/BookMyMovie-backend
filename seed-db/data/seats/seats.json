@@ -1,0 +1,294 @@
+[
+    {
+        "theaterId": "5fbc37583dcce91ff087d83f",
+        "title": "Fast & Furious 9",
+        "theaterName": "Filmstaden Kista",
+        "show": "Morning show",
+        "time": "10:00",
+        "seatsUnavailable": [
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "theaterId": "5fbc37583dcce91ff087d83f",
+        "title": "Fast & Furious 9",
+        "theaterName": "Filmstaden Kista",
+        "show": "Noon Show",
+        "time": "14:00",
+        "seatsUnavailable": [
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "theaterId": "5fbc37583dcce91ff087d83f",
+        "title": "Fast & Furious 9",
+        "theaterName": "Filmstaden Scandinavia",
+        "show": "Morning Show",
+        "time": "10:00",
+        "seatsUnavailable": [
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "theaterId": "5fbc37583dcce91ff087d83f",
+        "title": "Fast & Furious 9",
+        "theaterName": "Filmstaden Scandinavia",
+        "show": "Noon Show",
+        "time": "14:00",
+        "seatsUnavailable": [
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "theaterId": "5fbc37583dcce91ff087d83f",
+        "title": "Fast & Furious 9",
+        "theaterName": "Filmstaden Scandinavia",
+        "show": "Evening Show",
+        "time": "18:00",
+        "seatsUnavailable": [
+            7,
+            8,
+            9
+        ]
+    },
+    {
+        "theaterId": "5fbc37583dcce91ff087d83f",
+        "title": "Fast & Furious 9",
+        "theaterName": "Filmstaden Heron City",
+        "show": "Noon Show",
+        "time": "14:00",
+        "seatsUnavailable": [
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "theaterId": "Heron City",
+        "title": "Fast & Furious 9",
+        "theaterName": "Filmstaden Heron City",
+        "show": "Evening Show",
+        "time": "18:00",
+        "seatsUnavailable": [
+            7,
+            8,
+            9
+        ]
+    },
+    {
+        "theaterId": "5fbc37583dcce91ff087d83e",
+        "title": "Minions: The story of Gru",
+        "theaterName": "Filmstaden Scandinavia",
+        "show": "Noon Show",
+        "time": "14:00",
+        "seatsUnavailable": [
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "theaterId": "5fbc37583dcce91ff087d83e",
+        "title": "Minions: The story of Gru",
+        "theaterName": "Filmstaden Scandinavia",
+        "show": "Evening Show",
+        "time": "18:00",
+        "seatsUnavailable": [
+            7,
+            8,
+            9
+        ]
+    },
+    {
+        "theaterId": "5fbc37583dcce91ff087d840",
+        "title": "Dilwale Dulhania Le Jayenge - Classic",
+        "theaterName": "Filmstaden Heron City",
+        "show": "Noon show",
+        "time": "14:00",
+        "seatsUnavailable": [
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "theaterId": "5fbc37583dcce91ff087d840",
+        "title": "Dilwale Dulhania Le Jayenge - Classic",
+        "theaterName": "Filmstaden Heron City",
+        "show": "Evening Show",
+        "time": "18:00",
+        "seatsUnavailable": [
+            7,
+            8,
+            9
+        ]
+    },
+    {
+        "theaterId": "5fbc37583dcce91ff087d841",
+        "title": "Wonder Woman 1984",
+        "theaterName": "Filmstaden Scandinavia",
+        "show": "Morning show",
+        "time": "10:00",
+        "seatsUnavailable": [
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "theaterId": "5fbc37583dcce91ff087d841",
+        "title": "Wonder Woman 1984",
+        "theaterName": "Filmstaden Scandinavia",
+        "show": "Noon Show",
+        "time": "14:00",
+        "seatsUnavailable": [
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "theaterId": "5fbc37583dcce91ff087d842",
+        "title": "The King's Man",
+        "theaterName": "Filmstaden Scandinavia",
+        "show": "Morning show",
+        "time": "10:00",
+        "seatsUnavailable": [
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "theaterId": "5fbc37583dcce91ff087d842",
+        "title": "The King's Man",
+        "theaterName": "Filmstaden Scandinavia",
+        "show": "Noon Show",
+        "time": "14:00",
+        "seatsUnavailable": [
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "theaterId": "5fbc37583dcce91ff087d843",
+        "title": "Black Widow",
+        "theaterName": "Filmstaden Scandinavia",
+        "show": "Morning show",
+        "time": "10:00",
+        "seatsUnavailable": [
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "theaterId": "5fbc37583dcce91ff087d843",
+        "title": "Black Widow",
+        "theaterName": "Filmstaden Scandinavia",
+        "show": "Noon Show",
+        "time": "14:00",
+        "seatsUnavailable": [
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "theaterId": "5fbc37583dcce91ff087d844",
+        "title": "The Batman",
+        "theaterName": "Filmstaden Scandinavia",
+        "show": "Morning show",
+        "time": "10:00",
+        "seatsUnavailable": [
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "theaterId": "5fbc37583dcce91ff087d844",
+        "title": "The Batman",
+        "theaterName": "Filmstaden Scandinavia",
+        "show": "Noon Show",
+        "time": "14:00",
+        "seatsUnavailable": [
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "theaterId": "5fbc37583dcce91ff087d845",
+        "title": "Free Guy",
+        "theaterName": "Filmstaden Scandinavia",
+        "show": "Morning show",
+        "time": "10:00",
+        "seatsUnavailable": [
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "theaterId": "5fbc37583dcce91ff087d845",
+        "title": "Free Guy",
+        "theaterName": "Filmstaden Scandinavia",
+        "show": "Noon Show",
+        "time": "14:00",
+        "seatsUnavailable": [
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "theaterId": "5fbc37583dcce91ff087d846",
+        "title": "No Time to Die",
+        "theaterName": "Filmstaden Kista",
+        "show": "Morning show",
+        "time": "10:00",
+        "seatsUnavailable": [
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "theaterId": "5fbc37583dcce91ff087d846",
+        "title": "No Time to Die",
+        "theaterName": "Filmstaden Kista",
+        "show": "Noon Show",
+        "time": "14:00",
+        "seatsUnavailable": [
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "theaterId": "5fbc37583dcce91ff087d847",
+        "title": "A Quiet Place: Part II",
+        "theaterName": "Filmstaden Heron City",
+        "show": "Morning show",
+        "time": "10:00",
+        "seatsUnavailable": []
+    },
+    {
+        "theaterId": "5fbc37583dcce91ff087d847",
+        "title": "A Quiet Place: Part II",
+        "theaterName": "Filmstaden Heron City",
+        "show": "Noon Show",
+        "time": "14:00",
+        "seatsUnavailable": []
+    }
+]

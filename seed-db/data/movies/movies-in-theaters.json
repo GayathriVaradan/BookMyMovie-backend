@@ -5,27 +5,28 @@
             "Filmstaden Heron City",
             "Filmstaden Scandinavia"
         ],
-        "title": "F.R.I.E.N.D.S",
+        "title": "Fast & Furious 9",
         "year": "2020",
         "genres": [
-            "Comedy",
-            "Romance"
+            "Action",
+            "Adventure"
         ],
-        "poster": "https://m.media-amazon.com/images/I/612Sdyl5WiL._AC_UL480_FMwebp_QL65_.jpg",
+        "poster": "https://catalog.cinema-api.com/cf/images/ncg-images/ee022ed2d05d4050bfd2ef97c62499f8.jpg?width=240&version=8E60EFF01FFC65B6D6AFEA94195C6F36&format=webp",
         "contentRating": "15",
         "duration": "PT134M",
-        "releaseDate": "1994-02-14",
-        "storyline": "Follow the lives of six reckless adults living in Manhattan, as they indulge in adventures which make their lives both troublesome and happening.",
+        "releaseDate": "28 May 2021",
+        "storyline": "Dom Toretto lives a quiet life with Letty and his son, little Brian, but they know that danger is always lurking just over the horizon. This time, that threat will force Dom to confront the sins of his past if he is to save those he loves most. His crew joins forces to stop a worldwide conspiracy led by the most skilled killer and high-performing driver they have ever encountered: a man who also happens to be Dom's abandoned brother, Jakob.",
         "actors": [
-            "Jennifer Aniston",
-            "Courteney Cox",
-            "Lisa Kudrow",
-            "Matt LeBlanc",
-            "Matthew Perry",
-            "David Schwimmer"
+            "Vin Diesel",
+            "Charlize Theron",
+            "John Cena",
+            "Helen Mirren",
+            "Michelle Rodriguez",
+            "Jim Parrack",
+            "Jordana Brewster"
         ],
         "imdbRating": 8.9,
-        "posterurl": "https://m.media-amazon.com/images/I/612Sdyl5WiL._AC_UL480_FMwebp_QL65_.jpg"
+        "posterurl": "https://catalog.cinema-api.com/cf/images/ncg-images/ee022ed2d05d4050bfd2ef97c62499f8.jpg"
     },
     {
         "theaterNames": [
@@ -209,5 +210,63 @@
         ],
         "imdbRating": 8.1,
         "posterurl": "https://catalog.cinema-api.com/cf/images/ncg-images/74912790260f432f8233638b27d04a8a.jpg"
+    },
+    {
+        "theaterNames": [
+            "Filmstaden Kista"
+        ],
+        "title": "No Time to Die",
+        "year": "2020",
+        "genres": [
+            "Adventure",
+            "Action",
+            "Thriller"
+        ],
+        "poster": "https://catalog.cinema-api.com/cf/images/ncg-images/09933767f2d54cb08a695dfcd700ec00.jpg?width=240&version=768EF9038944BA103793975AA42E486A&format=webp",
+        "contentRating": "PG",
+        "duration": "2h 31m",
+        "releaseDate": "2 Apr 2021",
+        "storyline": "James Bond has left his post and is enjoying a quiet life in Jamaica. However, it is short-lived when his old friend Felix Leiter from the CIA shows up and asks for help. The mission to rescue a kidnapped researcher turns out to be more treacherous than expected.",
+        "actors": [
+            "Daniel Craig",
+            "Rami Malek",
+            "Naomie Harris",
+            "Ana de Armas",
+            "Léa Seydoux",
+            "Ralph Fiennes",
+            "Jeffrey Wright",
+            "Christoph Waltz",
+            "David Dencik"
+        ],
+        "imdbRating": 8.1,
+        "posterurl": "https://catalog.cinema-api.com/cf/images/ncg-images/09933767f2d54cb08a695dfcd700ec00.jpg"
+    },
+    {
+        "theaterNames": [
+            "Filmstaden Heron City"
+        ],
+        "title": "A Quiet Place: Part II",
+        "year": "2020",
+        "genres": [
+            "Adventure",
+            "Action",
+            "Thriller"
+        ],
+        "poster": "https://catalog.cinema-api.com/cf/images/ncg-images/833c283b5ecf424f9bad34c30a68cc7f.jpg?width=240&version=2CFFA15128E8A216B21316497A97D20E&format=webp",
+        "contentRating": "PG",
+        "duration": "2h 31m",
+        "releaseDate": "23 Apr 2021",
+        "storyline": "After the deadly events at home, the Abbott family must now face the dangers of the outside world as they continue their struggle for survival in silence. When forced to venture into the unknown, they quickly realize that the creatures that respond to sound are not the only threats lurking beyond the sandy path.",
+        "actors": [
+            "Cillian Murphy",
+            "Emily Blunt",
+            "Naomie Harris",
+            "Noah Jupe",
+            "Djimon Hounsou",
+            "Millicent Simmonds",
+            "Wayne Duvall"
+        ],
+        "imdbRating": 8.1,
+        "posterurl": "https://catalog.cinema-api.com/cf/images/ncg-images/833c283b5ecf424f9bad34c30a68cc7f.jpg"
     }
 ]
