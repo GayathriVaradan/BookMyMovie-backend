@@ -30,6 +30,10 @@ router.get("/", async (req, res) => {
 router.get("/:movieId", async (req, res) => {
   res.send(req.movie);
 });
+router.get("/title/:title", async (req, res) => {
+  const movie = await Movie.find({ title: req.params.title });
+  return res.json(movie);
+});
 
 // post movie info
 router.post("/", async (req, res) => {
