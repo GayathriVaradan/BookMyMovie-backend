@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
 
 const movieSchema = new mongoose.Schema({
   theaterNames: { type: [String], required: true },
@@ -14,4 +14,4 @@ const movieSchema = new mongoose.Schema({
   imdbRating: { type: Number, required: true },
   posterUrl: { type: String, required: true },
 });
-module.exports = mongoose.model("Movie", movieSchema);
+module.exports = mongoose.model('Movie', movieSchema);

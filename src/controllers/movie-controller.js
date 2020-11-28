@@ -1,15 +1,14 @@
-const express = require("express");
-const Movie = require("../models/movie-model");
-const { cloudinary, cloudinaryPreset } = require("../config/cloudinary");
+const express = require('express');
+const Movie = require('../models/movie-model');
 
 const router = express.Router();
 
-// verify the movie Id only one time
-router.param("movieId", async (req, res, next) => {
+// verify the movie Id only one times
+router.param('movieId', async (req, res, next) => {
   try {
     const movie = await Movie.findOne({ _id: req.params.movieId });
     if (!movie) {
-      res.status(404).json({ message: "movie id does not exist" });
+      res.status(404).json({ message: 'movie id does not exist' });
     } else {
       req.movie = movie;
       req.movieId = req.params.movieId;
@@ -21,23 +20,23 @@ router.param("movieId", async (req, res, next) => {
 });
 
 // get movies if it has
-router.get("/", async (req, res) => {
+router.get('/', async (req, res) => {
   const allMovies = await Movie.find();
   return res.json(allMovies);
 });
 
 // get movie by id
-router.get("/:movieId", async (req, res) => {
+router.get('/:movieId', async (req, res) => {
   res.send(req.movie);
 });
-router.get("/title/:title", async (req, res) => {
+router.get('/title/:title', async (req, res) => {
   const movie = await Movie.find({ title: req.params.title });
   return res.json(movie);
 });
 
 // post movie info
-router.post("/", async (req, res) => {
-  console.log("req.body.name", req.body);
+router.post('/', async (req, res) => {
+  console.log('req.body.name', req.body);
   const {
     theaterNames,
     title,
@@ -86,16 +85,16 @@ router.post("/", async (req, res) => {
     }
     return res
       .status(400)
-      .json({ message: "please include all movie details" });
+      .json({ message: 'please include all movie details' });
   } catch (err) {
     return res.status(500).send({
-      message: "Could not add the movie.",
+      message: 'Could not add the movie.',
     });
   }
 });
 
 // Updates movie info
-router.patch("/:movieId", async (req, res) => {
+router.patch('/:movieId', async (req, res) => {
   try {
     const movie = { _id: req.movieId, ...req.body };
     await Movie.updateOne({ _id: req.movieId }, { $set: req.body });
@@ -105,17 +104,4 @@ router.patch("/:movieId", async (req, res) => {
   }
 });
 
-// Delete a movie by id
-router.delete("/:movieId", async (req, res) => {
-  try {
-    await Movie.deleteOne({ _id: req.movieId });
-    res.status(204).json({
-      message: "Movie deleted successfully!",
-    });
-  } catch (err) {
-    return res.status(500).send({
-      message: "Could not delete the movie.",
-    });
-  }
-});
 module.exports = router;

@@ -1,14 +1,15 @@
-const express = require("express");
-const SeatsUnavailable = require("../models/seatsUnavailable-model");
+const express = require('express');
+const SeatsUnavailable = require('../models/seatsUnavailable-model');
+
 const router = express.Router();
 
-router.param("seatsUnavailableId", async (req, res, next) => {
+router.param('seatsUnavailableId', async (req, res, next) => {
   try {
     const seatsUnavailable = await SeatsUnavailable.findOne({
       _id: req.params.seatsUnavailableId,
     });
     if (!seatsUnavailable) {
-      res.status(404).json({ message: "seatsUnavailable id does not exist" });
+      res.status(404).json({ message: 'seatsUnavailable id does not exist' });
     } else {
       req.seatsUnavailable = seatsUnavailable;
       req.seatsUnavailableId = req.params.seatsUnavailableId;
@@ -18,7 +19,7 @@ router.param("seatsUnavailableId", async (req, res, next) => {
     res.status(500).send();
   }
 });
-router.get("/", async (req, res) => {
+router.get('/', async (req, res) => {
   try {
     const allSeatsUnavailable = await SeatsUnavailable.find();
     res.json(allSeatsUnavailable);
@@ -26,11 +27,11 @@ router.get("/", async (req, res) => {
     res.status(500).json({ message: err.message });
   }
 });
-router.get("/:seatsUnavailableId", async (req, res) => {
+router.get('/:seatsUnavailableId', async (req, res) => {
   res.send(req.seatsUnavailable);
 });
 router.get(
-  "/theater_Id/:theaterId/theaterName/:theaterName/show/:show",
+  '/theater_Id/:theaterId/theaterName/:theaterName/show/:show',
   async (req, res) => {
     const allSeatsUnavailable = await SeatsUnavailable.find({
       theater_id: req.params.theater_id,
@@ -44,13 +45,13 @@ router.get(
     } else {
       res.status(404).send();
     }
-    //res.json(allSeatsUnavailable);
+    // res.json(allSeatsUnavailable);
   }
 );
 router.patch(
-  "/theater_Id/:theaterId/theaterName/:theaterName/show/:show",
+  '/theater_Id/:theaterId/theaterName/:theaterName/show/:show',
   async (req, res) => {
-    console.log("body", req.body);
+    console.log('body', req.body);
     const allSeatsUnavailable = await SeatsUnavailable.updateOne(
       {
         theater_id: req.params.theater_id,
@@ -63,7 +64,7 @@ router.patch(
         },
       }
     );
-    console.log("allSeatsUnavailable:", allSeatsUnavailable);
+    console.log('allSeatsUnavailable:', allSeatsUnavailable);
     return res.send(allSeatsUnavailable);
   }
 );

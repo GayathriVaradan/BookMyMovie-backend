@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
 
 const theaterSchema = new mongoose.Schema({
   date: { type: String, required: true },
@@ -13,4 +13,4 @@ const theaterSchema = new mongoose.Schema({
     },
   ],
 });
-module.exports = mongoose.model("theaters", theaterSchema);
+module.exports = mongoose.model('theaters', theaterSchema);

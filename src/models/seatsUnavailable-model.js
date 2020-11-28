@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
 
 const seatsUnavailableSchema = new mongoose.Schema({
   theater_id: { type: mongoose.ObjectId, required: true },
@@ -9,4 +9,4 @@ const seatsUnavailableSchema = new mongoose.Schema({
   seatsUnavailable: [{ type: Number, required: true }],
 });
 
-module.exports = mongoose.model("seats", seatsUnavailableSchema);
+module.exports = mongoose.model('seats', seatsUnavailableSchema);
