@@ -22,7 +22,6 @@ app.get('/', (req, res) => {
 });
 app.post('/payment', async (req, res) => {
   const { price, token, selectedMovie } = req.body;
-  // console.log("price", price);
   const idempotency_key = uuidv4();
 
   try {
@@ -46,36 +45,9 @@ app.post('/payment', async (req, res) => {
       }
     );
 
-    // console.log("charge", JSON.stringify(charge));
     res.status(200).json({ status: 'success', charge });
   } catch (err) {
     console.log('error : ', err);
   }
 });
-// return stripe.customers
-//   .create({
-//     email: token.email,
-//     source: token.id,
-//   })
-//   .then((customer) => {
-//     stripe.charges.create(
-//       {
-//         amount: product.price * 100,
-//         currency: "SEK",
-//         customer: customer.id,
-//         receipt_email: token.email,
-//         description: product.name,
-//         selectedMovie: selectedMovie.title,
-//         selectedDate: selectedDate,
-//         selectedTheater: selectedTheater.theaterName,
-//         selectedShow: selectedShow.show,
-//         selectedSeats: selectedSeats,
-//       },
-//       { idempotencyKey }
-//     );
-//   })
-//   .then((result) => res.status(200).json(result))
-//   .catch((err) => console.log(err));
-
-// eslint-disable-next-line no-console
 module.exports = app;
