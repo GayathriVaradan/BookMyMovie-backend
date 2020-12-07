@@ -1,5 +1,5 @@
 const express = require('express');
-const Theater = require('../models/theater-model');
+const Theater = require('../models/theater');
 
 const router = express.Router();
 // verify the theater Id only one time

@@ -1,5 +1,5 @@
 const express = require('express');
-const SeatsUnavailable = require('../models/seatsUnavailable-model');
+const SeatsUnavailable = require('../models/seatsUnavailable');
 
 const router = express.Router();
 
@@ -51,7 +51,6 @@ router.get(
 router.patch(
   '/theater_Id/:theaterId/theaterName/:theaterName/show/:show',
   async (req, res) => {
-    console.log('body', req.body);
     const allSeatsUnavailable = await SeatsUnavailable.updateOne(
       {
         theater_id: req.params.theater_id,
@@ -64,7 +63,6 @@ router.patch(
         },
       }
     );
-    console.log('allSeatsUnavailable:', allSeatsUnavailable);
     return res.send(allSeatsUnavailable);
   }
 );

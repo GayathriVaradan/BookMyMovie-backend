@@ -5,11 +5,7 @@
         "theaterName": "Filmstaden Kista",
         "show": "Morning show",
         "time": "10:00",
-        "seatsUnavailable": [
-            1,
-            2,
-            3
-        ]
+        "seatsUnavailable": []
     },
     {
         "theaterId": "5fbc37583dcce91ff087d83f",
@@ -17,11 +13,7 @@
         "theaterName": "Filmstaden Kista",
         "show": "Noon Show",
         "time": "14:00",
-        "seatsUnavailable": [
-            4,
-            5,
-            6
-        ]
+        "seatsUnavailable": []
     },
     {
         "theaterId": "5fbc37583dcce91ff087d83f",
@@ -29,11 +21,7 @@
         "theaterName": "Filmstaden Scandinavia",
         "show": "Morning Show",
         "time": "10:00",
-        "seatsUnavailable": [
-            1,
-            2,
-            3
-        ]
+        "seatsUnavailable": []
     },
     {
         "theaterId": "5fbc37583dcce91ff087d83f",
@@ -41,11 +29,7 @@
         "theaterName": "Filmstaden Scandinavia",
         "show": "Noon Show",
         "time": "14:00",
-        "seatsUnavailable": [
-            4,
-            5,
-            6
-        ]
+        "seatsUnavailable": []
     },
     {
         "theaterId": "5fbc37583dcce91ff087d83f",
@@ -53,11 +37,7 @@
         "theaterName": "Filmstaden Scandinavia",
         "show": "Evening Show",
         "time": "18:00",
-        "seatsUnavailable": [
-            7,
-            8,
-            9
-        ]
+        "seatsUnavailable": []
     },
     {
         "theaterId": "5fbc37583dcce91ff087d83f",
@@ -65,11 +45,7 @@
         "theaterName": "Filmstaden Heron City",
         "show": "Noon Show",
         "time": "14:00",
-        "seatsUnavailable": [
-            4,
-            5,
-            6
-        ]
+        "seatsUnavailable": []
     },
     {
         "theaterId": "Heron City",
@@ -77,11 +53,7 @@
         "theaterName": "Filmstaden Heron City",
         "show": "Evening Show",
         "time": "18:00",
-        "seatsUnavailable": [
-            7,
-            8,
-            9
-        ]
+        "seatsUnavailable": []
     },
     {
         "theaterId": "5fbc37583dcce91ff087d83e",
@@ -89,11 +61,7 @@
         "theaterName": "Filmstaden Scandinavia",
         "show": "Noon Show",
         "time": "14:00",
-        "seatsUnavailable": [
-            4,
-            5,
-            6
-        ]
+        "seatsUnavailable": []
     },
     {
         "theaterId": "5fbc37583dcce91ff087d83e",
@@ -101,11 +69,7 @@
         "theaterName": "Filmstaden Scandinavia",
         "show": "Evening Show",
         "time": "18:00",
-        "seatsUnavailable": [
-            7,
-            8,
-            9
-        ]
+        "seatsUnavailable": []
     },
     {
         "theaterId": "5fbc37583dcce91ff087d840",
@@ -113,23 +77,15 @@
         "theaterName": "Filmstaden Heron City",
         "show": "Noon show",
         "time": "14:00",
-        "seatsUnavailable": [
-            1,
-            2,
-            3
-        ]
-    },
+        "seatsUnavailable": []
+   },
     {
         "theaterId": "5fbc37583dcce91ff087d840",
         "title": "Dilwale Dulhania Le Jayenge - Classic",
         "theaterName": "Filmstaden Heron City",
         "show": "Evening Show",
         "time": "18:00",
-        "seatsUnavailable": [
-            7,
-            8,
-            9
-        ]
+        "seatsUnavailable": []
     },
     {
         "theaterId": "5fbc37583dcce91ff087d841",
@@ -137,11 +93,7 @@
         "theaterName": "Filmstaden Scandinavia",
         "show": "Morning show",
         "time": "10:00",
-        "seatsUnavailable": [
-            1,
-            2,
-            3
-        ]
+        "seatsUnavailable": []
     },
     {
         "theaterId": "5fbc37583dcce91ff087d841",
@@ -149,11 +101,7 @@
         "theaterName": "Filmstaden Scandinavia",
         "show": "Noon Show",
         "time": "14:00",
-        "seatsUnavailable": [
-            4,
-            5,
-            6
-        ]
+        "seatsUnavailable": []
     },
     {
         "theaterId": "5fbc37583dcce91ff087d842",
@@ -161,11 +109,7 @@
         "theaterName": "Filmstaden Scandinavia",
         "show": "Morning show",
         "time": "10:00",
-        "seatsUnavailable": [
-            1,
-            2,
-            3
-        ]
+        "seatsUnavailable": []
     },
     {
         "theaterId": "5fbc37583dcce91ff087d842",
@@ -173,11 +117,7 @@
         "theaterName": "Filmstaden Scandinavia",
         "show": "Noon Show",
         "time": "14:00",
-        "seatsUnavailable": [
-            4,
-            5,
-            6
-        ]
+        "seatsUnavailable": []
     },
     {
         "theaterId": "5fbc37583dcce91ff087d843",
@@ -185,11 +125,7 @@
         "theaterName": "Filmstaden Scandinavia",
         "show": "Morning show",
         "time": "10:00",
-        "seatsUnavailable": [
-            1,
-            2,
-            3
-        ]
+        "seatsUnavailable": []
     },
     {
         "theaterId": "5fbc37583dcce91ff087d843",
@@ -197,11 +133,7 @@
         "theaterName": "Filmstaden Scandinavia",
         "show": "Noon Show",
         "time": "14:00",
-        "seatsUnavailable": [
-            4,
-            5,
-            6
-        ]
+        "seatsUnavailable": []
     },
     {
         "theaterId": "5fbc37583dcce91ff087d844",
@@ -209,11 +141,7 @@
         "theaterName": "Filmstaden Scandinavia",
         "show": "Morning show",
         "time": "10:00",
-        "seatsUnavailable": [
-            1,
-            2,
-            3
-        ]
+        "seatsUnavailable": []
     },
     {
         "theaterId": "5fbc37583dcce91ff087d844",
@@ -221,11 +149,7 @@
         "theaterName": "Filmstaden Scandinavia",
         "show": "Noon Show",
         "time": "14:00",
-        "seatsUnavailable": [
-            4,
-            5,
-            6
-        ]
+        "seatsUnavailable": []
     },
     {
         "theaterId": "5fbc37583dcce91ff087d845",
@@ -233,11 +157,7 @@
         "theaterName": "Filmstaden Scandinavia",
         "show": "Morning show",
         "time": "10:00",
-        "seatsUnavailable": [
-            1,
-            2,
-            3
-        ]
+        "seatsUnavailable": []
     },
     {
         "theaterId": "5fbc37583dcce91ff087d845",
@@ -245,11 +165,7 @@
         "theaterName": "Filmstaden Scandinavia",
         "show": "Noon Show",
         "time": "14:00",
-        "seatsUnavailable": [
-            4,
-            5,
-            6
-        ]
+        "seatsUnavailable": []
     },
     {
         "theaterId": "5fbc37583dcce91ff087d846",
@@ -257,11 +173,7 @@
         "theaterName": "Filmstaden Kista",
         "show": "Morning show",
         "time": "10:00",
-        "seatsUnavailable": [
-            1,
-            2,
-            3
-        ]
+        "seatsUnavailable": []
     },
     {
         "theaterId": "5fbc37583dcce91ff087d846",
@@ -269,11 +181,7 @@
         "theaterName": "Filmstaden Kista",
         "show": "Noon Show",
         "time": "14:00",
-        "seatsUnavailable": [
-            4,
-            5,
-            6
-        ]
+        "seatsUnavailable": []
     },
     {
         "theaterId": "5fbc37583dcce91ff087d847",

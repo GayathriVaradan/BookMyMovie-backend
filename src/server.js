@@ -9,9 +9,9 @@ const { v4: uuidv4 } = require('uuid');
 
 app.use(express.json({ limit: '50mb' }));
 app.use(cors());
-const movies = require('./controllers/movie-controller');
-const theaters = require('./controllers/theater-controller');
-const seatsUnavailable = require('./controllers/seatsUnavailable-controller');
+const movies = require('./controllers/movie');
+const theaters = require('./controllers/theater');
+const seatsUnavailable = require('./controllers/seatsUnavailable');
 
 app.use('/api/v1/movies', movies);
 app.use('/api/v1/theaters', theaters);
@@ -20,12 +20,12 @@ app.use('/api/v1/seatsUnavailable', seatsUnavailable);
 app.get('/', (req, res) => {
   res.send('Hello World!');
 });
+
 app.post('/payment', async (req, res) => {
   const { price, token, selectedMovie } = req.body;
   const idempotency_key = uuidv4();
 
   try {
-    // 1. Create checkout session
     const customer = await stripe.customers.create({
       email: token.email,
       source: token.id,
@@ -47,7 +47,7 @@ app.post('/payment', async (req, res) => {
 
     res.status(200).json({ status: 'success', charge });
   } catch (err) {
-    console.log('error : ', err);
+    res.json({ err });
   }
 });
 module.exports = app;
