@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 const mongoose = require('mongoose');
 
 // eslint-disable-next-line import/no-unresolved
@@ -17,10 +18,8 @@ const connect = async () => {
       useUnifiedTopology: true,
     };
     await mongoose.connect(mongoConnectionString, opts);
-    // logger.debug({ mongoConnectionString });
     console.log({ mongoConnectionString });
   } catch (err) {
-    // logger.error(`Fail to connect with database ${mongoConnectionString}`);
     console.log(`Fail to connect with database ${mongoConnectionString}`);
   }
 };
