@@ -7,7 +7,7 @@
 *.lock.json
 # testing
 /coverage
-
+.debug.log
 # production
 /build
 
