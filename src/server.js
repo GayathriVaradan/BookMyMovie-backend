@@ -2,9 +2,7 @@ const express = require('express');
 const cors = require('cors');
 
 const app = express();
-const stripe = require('stripe')(
-  'sk_test_51HmbeNKaGaw448OOoJwRuxVMGhDw6q5SaB0jVgJLdkZdqGOFDKad2A0oYNHncAJEwH83FPlFrKIWgFGHttjDIbBE00qTpm3BZ2'
-);
+const stripe = require('stripe')(process.env.STRIPE_KEY);
 const { v4: uuidv4 } = require('uuid');
 
 app.use(express.json({ limit: '50mb' }));
@@ -16,7 +14,6 @@ const seatsUnavailable = require('./controllers/seatsUnavailable');
 app.use('/api/v1/movies', movies);
 app.use('/api/v1/theaters', theaters);
 app.use('/api/v1/seatsUnavailable', seatsUnavailable);
-
 app.get('/', (req, res) => {
   res.send('Hello World!');
 });
