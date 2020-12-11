@@ -1,6 +1,7 @@
 const { connect } = require('./config/database');
 const app = require('./server');
 
+const PORT = process.env.PORT || 5050;
 connect();
 // eslint-disable-next-line no-console
-app.listen(5050, () => console.log('Running on Port 5050'));
+app.listen(PORT, () => console.log(`Running on Port ${PORT}`));
